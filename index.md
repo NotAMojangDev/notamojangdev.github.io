@@ -1,4 +1,4 @@
-# NotAMojangDev
+# (NotAMojangDev)[https://github.com/NotAMojangDev]
 
 ## About me
 I am a SkriptLang(Skript) Developer and a Texture pack maker for Minecraft
@@ -23,7 +23,7 @@ I am a SkriptLang(Skript) Developer and a Texture pack maker for Minecraft
 #### [HTML](https://HTML.com/)
 ##### Reasons
 - Website Developing
-#### [C++](https://isocpp.org/) {I think}
+#### [C++](https://isocpp.org/) {I think this is the link}
 ##### Reasons
 - Game Developing
 #### [Python](https://python.org/)
