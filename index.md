@@ -1,8 +1,8 @@
 # NotAMojangDev
-###### (NotAMojangDev)[https://github.com/NotAMojangDev]
+###### [NotAMojangDev](https://github.com/NotAMojangDev)
 ## About me
-I am a SkriptLang(Skript) Developer and a Texture pack maker for Minecraft
-[SkriptLang](https://github.com/SkriptLang/Skript/)
+I am a [SkriptLang](https://github.com/SkriptLang/Skript/)(Skript) Developer and a Texture pack maker for Minecraft
+
 
 ### I am also a Gamer
 #### I play
