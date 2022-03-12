@@ -9,8 +9,8 @@ I am a [SkriptLang](https://github.com/SkriptLang/Skript/)(Skript) Developer and
 - [Minecraft](https://minecraft.net/)
 > Java
 > Bedrock Soon
-- [Terratech](https://terratechgame.com/) {Can't get steam to work}
-- [Among Us](https://www.innersloth.com/games/among-us/) {Sometimes}
+- [Terratech](https://terratechgame.com/)
+- [Among Us](https://www.innersloth.com/games/among-us/)
 
 ### I also Want to learn...
 #### [Java](https://java.com/)
