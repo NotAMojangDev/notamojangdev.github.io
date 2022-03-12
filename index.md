@@ -15,7 +15,7 @@ I am a [SkriptLang](https://github.com/SkriptLang/Skript/)(Skript) Developer and
 ### I also Want to learn...
 #### [Java](https://java.com/)
 ##### Reasons
-- [JDA](https://github.com/DV8FromTheWorld/JDA)
+- [Java Discord API](https://github.com/DV8FromTheWorld/JDA)
 - [BukkitAPI](https://hub.spigotmc.org/javadocs/bukkit/)
 - [SpigotAPI](https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/)
 - [PaperAPI](https://papermc.io/javadocs/paper/1.16/)
@@ -23,6 +23,9 @@ I am a [SkriptLang](https://github.com/SkriptLang/Skript/)(Skript) Developer and
 #### [HTML](https://HTML.com/)
 ##### Reasons
 - Website Developing
+#### [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+##### Reasons
+- Unity Game Engine
 #### [C++](https://isocpp.org/) {I think this is the link}
 ##### Reasons
 - Game Developing
@@ -33,6 +36,9 @@ I am a [SkriptLang](https://github.com/SkriptLang/Skript/)(Skript) Developer and
 ##### Reasons
 - Compatible with HTML
 - [Discord.js](https://discord.js.org/)
+#### [Unity Game Engine](https://unity.com/)
+##### Reasons
+- Game Development
 
 ## Contact
 - I am very active over on discord
