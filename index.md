@@ -41,5 +41,5 @@ I am a [SkriptLang](https://github.com/SkriptLang/Skript/)(Skript) Developer and
 - Game Development
 
 ## Contact
-- I am very active over on discord
+- I am very active over on discord 
 > My Tag and username: `NotAMojangDev#3761`
