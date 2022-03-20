@@ -1,5 +1,5 @@
-theme: pages-themes/cayman0.2.0
-title: NotAMojangDev
+theme: jekyll-theme-cayman
+title: Home
 description: NotAMojangDev's Official Website | Maintained by [NotAMojangDev](https://github.com/NotAMojangDev)
 plugins:
 - jekyll-remote-theme
