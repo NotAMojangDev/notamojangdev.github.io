@@ -1,16 +1,15 @@
 # NotAMojangDev
 
 ## About me
-I am a SkriptLang(Skript) Developer and a Texture pack maker for Minecraft
-[SkriptLang](https://github.com/SkriptLang/Skript/)
-
+I am a [SkriptLang (Skript)](https://github.com/SkriptLang/Skript/) Developer and a Texture pack maker for [Minecraft](https://minecraft.net)
+- {I did not help make skript I know how to use it}
 ### I am also a Gamer
 #### I play
 - [Minecraft](https://minecraft.net/)
 > Java
 > Bedrock Soon
-- [Terratech](https://terratechgame.com/) {Can't get steam to work}
-- [Among Us](https://www.innersloth.com/games/among-us/) {Sometimes}
+- [Terratech](https://terratechgame.com/)
+- [Among Us](https://www.innersloth.com/games/among-us/)
 
 ### I also Want to learn...
 #### [Java](https://java.com/)
@@ -33,6 +32,14 @@ I am a SkriptLang(Skript) Developer and a Texture pack maker for Minecraft
 ##### Reasons
 - Compatible with HTML
 - [Discord.js](https://discord.js.org/)
+#### [C#](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps)
+##### Reasons
+- [Unity Game Engine](https://unity.com)
+#### 
+- [Unity Game Engine](https://unity.com)
+##### Reasons
+- Game Development
+
 
 ## Contact
 - I am very active over on discord
