@@ -35,8 +35,7 @@ I am a [SkriptLang (Skript)](https://github.com/SkriptLang/Skript/) Developer an
 #### [C#](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps)
 ##### Reasons
 - [Unity Game Engine](https://unity.com)
-#### 
-- [Unity Game Engine](https://unity.com)
+#### [Unity Game Engine](https://unity.com)
 ##### Reasons
 - Game Development
 
