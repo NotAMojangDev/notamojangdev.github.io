@@ -1,0 +1,56 @@
+img.ac1 {
+  width: 50px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+img.u2 {
+  width: 40px;
+  border-radius: 15px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: width 100ms ease-out 100ms margin-right 100ms
+}
+  img.u2:hover {
+    width: 50px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 10px; 
+  }
+
+img.u1 {
+  width: 50px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+img.ac2 {
+  width: 40px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: width 100ms ease-out 100ms
+}
+  img.ac2:hover {
+    width: 50px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px; 
+  }
+
+em.r {
+  font-style: normal;
+  color: black;
+}
