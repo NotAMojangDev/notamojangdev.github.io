@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: Home
+description: NotAMojangDev's Official Website | Maintained by NotAMojangDev
+plugins:
+- jekyll-remote-theme
