@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
-  background-color: #2f3136;
+  background-color: #283042;
 }
 
 a {
@@ -68,7 +68,7 @@ a:hover {
   color: rgb(255, 255, 255);
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
+  background-image: linear-gradient(120deg, #191970, #414172);
 }
 @media screen and (min-width: 64em) {
   .page-header {
