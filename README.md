@@ -1,1 +1,1 @@
-# The Code behind My [Website](https://notamojangdev.github.io)
+# The Code behind My [Website](https://notamojangdev.pages.dev)
