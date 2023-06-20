@@ -24,14 +24,8 @@ body {
 	font-family: 'Source Code Pro', sans-serif;
 	background-color: var(--background-color);
 	padding-top: 80px;
-	max-width: 2000px;
-	margin: 0 auto;
 }
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 a {
 	color: var(--link-color);
 	text-decoration: none;
@@ -304,7 +298,6 @@ nav .right a span {
 .socials-section {
 	color: var(--text-color);
 	margin-top: 80px;
-	width: fit-content;
 }
 
 .socials-section .text {
@@ -312,15 +305,13 @@ nav .right a span {
 	justify-content: center;
 }
 
-.socials-section .links,
-.socials-section .link {
+.socials-section .links {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.socials-section .links .social-link,
-.socials-section .link div#discord {
+.socials-section .links .social-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -332,7 +323,6 @@ nav .right a span {
 	border-radius: 10px;
 	gap: 5px;
 	margin-bottom: 5px;
-	transition: color 0.1s, background-color 0.3s;
 }
 
 .socials-section .links a#github {
@@ -389,22 +379,6 @@ nav .right a span {
 	color: var(--background-color);
 }
 
-.socials-section .link div#discord {
-	color: #5865f2;
-	display: flex;
-	flex-direction: row;
-}
-
-.socials-section .link div#discord:hover {
-	background-color: #5865f2;
-	color: var(--background-color);
-}
-
-@media (min-width: 660px) {
-	.socials-section .link div#discord {
-		width: 100%;
-	}
-}
 /* Footer */
 
 footer {
@@ -521,15 +495,8 @@ footer p {
 		width: 100%;
 	}
 
-	.socials-section .links .social-link,
-	.socials-section .link div#discord {
+	.socials-section .links .social-link {
 		width: 90%;
-	}
-	.socials-section .links .social-link,
-	.socials-section .link div#discord {
-		display: flex;
-		justify-content: space-evenly;
-		padding: 10px 80px;
 	}
 }
 
@@ -548,30 +515,24 @@ footer p {
 
 	.skills-section .cells .cell {
 		width: 90%;
-		padding: 10px 120px;
-		justify-content: space-between;
+        padding: 10px 120px;
+        justify-content: space-between;
 	}
 }
 
 @media (max-width: 456px) {
-	.skills-section .cells .cell {
-		justify-content: center;
+    .skills-section .cells .cell {
+        justify-content: center;
 	}
 }
 
 @media (max-width: 298px) {
-	.skills-section .cells .cell {
-		padding: 10px;
+    .skills-section .cells .cell {
+        padding: 10px;
 	}
-	.skills-section .cells .cell span {
-		display: none;
-	}
-}
-
-@media (max-width: 317px) {
-	.socials-section .link div span {
-		display: none;
-	}
+    .skills-section .cells .cell span {
+        display: none;
+    }
 }
 
 @media (max-width: 446px) {

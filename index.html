@@ -50,7 +50,7 @@
         <section id='hero' class='hero-section'>
             <div class="text">
                 <h2>Hello, I am NotAMojangDev! 👋</h2>
-                <p>I am a random guy you probably found on the internet so thank you for
+                <p>I am a random guy you probably found on the internet so thank you for 
                     taking your time to read about me, I like coding, Playing video games and Technology in particular.
                     I Always wanted to learn Java, JavaScript And some of the "C" languages.
                 </p>
@@ -94,8 +94,7 @@
                 taught me JavaScript that gave me the Tools to learn it myself.
             </div>
             <div class="cells">
-                <a class="cell javascript" href="http://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank"
-                    rel="noopener noreferrer">
+                <a class="cell javascript" href="http://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noopener noreferrer">
                     <img src="images/javascript-logo.webp" alt="JS logo">
                     <span>JavaScript</span>
                 </a>
@@ -115,16 +114,14 @@
                     <img src="images/python-logo.webp" alt="python logo">
                     <span>Python</span>
                 </a>
-                <a class="cell html" href="http://developer.mozilla.org/en-US/docs/Web/html" target="_blank"
-                    rel="noopener noreferrer">
+                <a class="cell html" href="http://developer.mozilla.org/en-US/docs/Web/html" target="_blank" rel="noopener noreferrer">
                     <img src="images/html-logo.webp" alt="html logo">
                     <span>HTML</span>
                 </a>
-                <a class="cell css" href="http://developer.mozilla.org/en-US/docs/Web/css" target="_blank"
-                    rel="noopener noreferrer">
+                <a class="cell css" href="http://developer.mozilla.org/en-US/docs/Web/css" target="_blank" rel="noopener noreferrer">
                     <img src="images/css-logo.webp" alt="CSS logo">
                     <span>CSS</span>
-            </div></a>
+                </div></a>
             </div>
         </section>
 
@@ -158,12 +155,12 @@
                     </div>
                 </div>
                 <div class="projects-container">
-
+                
                     <div class="project">
                         <div class="text">
                             <h3>Project: Secret</h3>
                             <p>Can't reveal too much Info as we are trying to keep it a secret,
-                                This is an upcoming project of mine It's a minecraft server.
+                               This is an upcoming project of mine It's a minecraft server.
                             </p>
                         </div>
                         <div class="image">
@@ -192,25 +189,21 @@
             </div>
 
             <div class="links">
-                <a href="http://github.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class="social-link"
-                    id='github'>
+                <a href="http://github.com/NotAMojangDev" target="_blank" rel="noopener noreferrer"   class="social-link" id='github'>
                     <i class="fa-brands fa-github"></i>
                     <span>Github</span>
                 </a>
-                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
-                    id='twitter'>
+                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link' id='twitter'>
                     <i class='fa-brands fa-twitter'></i>
                     <span>Twitter</span>
                 </a>
-                <a href="http://twitch.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
-                    id='twitch'>
+                <a href="http://twitch.com/NotAMojangDev" target="_blank" rel="noopener noreferrer"  class='social-link' id='twitch'>
                     <i class='fa-brands fa-twitch'></i>
                     <span>Twitch</span>
                 </a>
             </div>
             <div class="links">
-                <a href="http://steamcommunity.com/id/NotAMojangDev" target="_blank" rel="noopener noreferrer"
-                    class="social-link" id='steam'>
+                <a href="http://steamcommunity.com/id/NotAMojangDev" target="_blank" rel="noopener noreferrer" class="social-link" id='steam'>
                     <i class="fa-brands fa-steam"></i>
                     <span>Steam</span>
                 </a>
@@ -219,17 +212,11 @@
                     <i class='fa-brands fa-codepen'></i>
                     <span>Codepen</span>
                 </a>
-                <a href="http://youtube.com/@NotAMojangDev" target="_blank" rel="noopener noreferrer"
-                    class='social-link' id='youtube'>
+                <a href="http://youtube.com/@NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
+                    id='youtube'>
                     <i class='fa-brands fa-youtube'></i>
                     <span>Youtube</span>
                 </a>
-            </div>
-            <div class="link">
-                <div class='social-link' id="discord" onclick='copyDiscordTag()'>
-                    <i class='fa-brands fa-discord'></i>
-                    <span>Discord</span>
-                </div>
             </div>
 
             <div class="contact"></div>
@@ -243,18 +230,7 @@
         </footer>
     </main>
     <script>
-        let yearElements = document.querySelectorAll('.year');
-
-        for (i = 0; i < yearElements.length; i++) {
-            yearElements[i].textContent = new Date().getFullYear();
-        }
-
-
-
-        function copyDiscordTag() {
-            navigator.clipboard.writeText('notamojangdev');
-            alert('copied discord tag: notamojangdev');
-        }
+        document.querySelector('.year').textContent = new Date().getFullYear();
     </script>
 </body>
 
