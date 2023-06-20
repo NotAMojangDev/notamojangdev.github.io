@@ -1,0 +1,547 @@
+:root {
+	--text-color: #eeeff1;
+	--dark-text-color: #373737;
+	--link-color: #5151e4;
+	--link-hover-color: #3c3cab;
+	--background-color: #181835;
+	--footer-color: #090914;
+	--projects-section-color: hsl(196, 100%, 49%);
+	--project-background-color: hsl(196, 100%, 40%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Source Code Pro', sans-serif;
+	background-color: var(--background-color);
+	padding-top: 80px;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+/* NAVBAR */
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	height: 80px;
+	background-color: var(--link-hover-color);
+}
+
+nav .container .left {
+	font-size: 30px;
+}
+
+nav .container .left .homeLink {
+	display: flex;
+	align-items: center;
+	color: var(--text-color);
+	border-radius: 10px;
+	padding: 4px;
+}
+nav .container .left .homeLink:hover {
+	background-color: var(--link-hover-color);
+	color: var(--dark-text-color);
+}
+
+nav .container .left img.home {
+	height: 30px;
+	margin-right: 10px;
+}
+
+nav .container .right a {
+	margin: 0px 5px;
+}
+
+nav .container .right a#github {
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+nav .container .right a#github:hover {
+	background-color: #ffffff;
+	color: var(--link-hover-color);
+	box-shadow: 3px 1px 1px black;
+}
+
+nav .container .right a#twitter {
+	color: #1d9bf0;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+nav .container .right a#twitter:hover {
+	background-color: #1d9bf0;
+	color: var(--link-hover-color);
+	box-shadow: 3px 1px 1px black;
+}
+
+nav .container .right a#twitch {
+	color: #9146ff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+nav .container .right a#twitch:hover {
+	background-color: #9146ff;
+	color: var(--link-hover-color);
+	box-shadow: 3px 1px 1px black;
+}
+
+nav .right a:hover {
+	background-color: var(--link-hover-color);
+}
+
+nav .right a span {
+	margin: 3px;
+}
+
+/* Hero */
+.hero-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	color: var(--text-color);
+	margin-top: 50px;
+	margin: 50px 0;
+	gap: 40px;
+}
+
+.hero-section .text {
+	flex: 5;
+}
+
+.hero-section .text h2 {
+	font-size: 45px;
+}
+
+.hero-section .profileImg {
+	flex: 2;
+	display: flex;
+	justify-content: right;
+}
+
+.hero-section .profileImg img {
+	border-radius: 25%;
+	width: 300px;
+	box-shadow: 4px 2px 2px rgba(86, 86, 86, 0.793);
+	background-color: var(--link-hover-color);
+}
+
+.hero-section .text .links {
+	margin-top: 25px;
+}
+
+.hero-section .text .links a {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 2px solid var(--text-color);
+	color: var(--text-color);
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-shadow: 5px 3px 3px black;
+}
+
+.hero-section .text .links a:hover {
+	border: 2px solid var(--link-color);
+	color: var(--link-color);
+	background-color: var(--text-color);
+}
+
+/* Skills */
+.skills-section {
+	color: var(--text-color);
+	padding: 0 50px;
+	margin-bottom: 100px;
+}
+
+.skills-section h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.skills-section .text {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.skills-section .cells {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.skills-section .cells .cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0 10px;
+	width: 200px;
+	padding: 10px 20px;
+	border: 2px solid #616263;
+	border-radius: 10px;
+	gap: 5px;
+	margin-bottom: 5px;
+}
+
+.skills-section .cells .cell span {
+	font-size: 18px;
+}
+
+.skills-section .cells a {
+	color: var(--text-color);
+}
+
+.skills-section .cells a:hover {
+	color: var(--link-color);
+}
+
+.skills-section .cells .cell img {
+	height: 30px;
+	width: auto;
+	object-fit: contain;
+	border-radius: 2px;
+}
+
+/* Projects */
+
+.projectsSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.projectsSection .text {
+	text-align: center;
+	color: var(--text-color);
+}
+
+.projectsSection {
+	display: flex;
+	color: var(--dark-text-color);
+	flex-direction: column;
+	padding: 20px 100px;
+	width: 100%;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.projectsSection .projects-container {
+	display: flex;
+	flex-direction: row;
+}
+@media (min-width: 1620px) {
+	.projects-container:first-child {
+		flex: 5;
+	}
+
+	.projects-container:last-child {
+		flex: 5;
+	}
+}
+.projectsSection .projects-container .project {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--projects-section-color);
+	padding: 40px;
+	align-content: center;
+	gap: 80px;
+
+	margin: 5px 5px;
+	border-radius: 30px;
+	width: 50%;
+	height: auto;
+}
+
+.project .text {
+	flex: 5;
+}
+
+.project .text {
+	color: var(--dark-text-color);
+}
+
+.project .image {
+	flex: 5;
+	width: 100%;
+}
+
+.project .image img {
+	width: 90%;
+}
+
+/* Socials */
+
+.socials-section {
+	color: var(--text-color);
+	margin-top: 80px;
+}
+
+.socials-section .text {
+	display: flex;
+	justify-content: center;
+}
+
+.socials-section .links {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.socials-section .links .social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0 10px;
+	width: 200px;
+	padding: 10px 20px;
+	border: 2px solid #616263;
+	border-radius: 10px;
+	gap: 5px;
+	margin-bottom: 5px;
+}
+
+.socials-section .links a#github {
+	color: #ffffff;
+}
+
+.socials-section .links a#github:hover {
+	background-color: #ffffff;
+	color: var(--background-color);
+}
+
+.socials-section .links a#twitter {
+	color: #1d9bf0;
+}
+
+.socials-section .links a#twitter:hover {
+	background-color: #1d9bf0;
+	color: var(--background-color);
+}
+
+.socials-section .links a#twitch {
+	color: #9146ff;
+}
+
+.socials-section .links a#twitch:hover {
+	background-color: #9146ff;
+	color: var(--background-color);
+}
+
+.socials-section .links a#youtube {
+	color: #ff0000;
+}
+
+.socials-section .links a#youtube:hover {
+	background-color: #ff0000;
+	color: var(--background-color);
+}
+
+.socials-section .links a#steam {
+	color: hsl(202, 87%, 68%);
+}
+
+.socials-section .links a#steam:hover {
+	background-color: hsl(202, 87%, 68%);
+	color: var(--background-color);
+}
+
+.socials-section .links a#codepen {
+	color: #0ebeff;
+}
+
+.socials-section .links a#codepen:hover {
+	background-color: #0ebeff;
+	color: var(--background-color);
+}
+
+/* Footer */
+
+footer {
+	background-color: var(--footer-color);
+	position: flex;
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	display: flex;
+	color: var(--text-color);
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+footer p {
+	text-align: center;
+}
+
+@media (max-width: 1620px) {
+	/* Projects */
+	.projectsSection {
+		padding: 20px 10px;
+	}
+	.projectsSection .projects-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.projectsSection .projects-container .project {
+		width: 94%;
+		height: 454px;
+		gap: 10px;
+	}
+}
+
+@media (max-width: 1075px) {
+	.projectsSection .projects-container .project {
+		width: 90%;
+		height: auto;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.projectsSection .projects-container .project .image {
+		align-items: center;
+		justify-content: center;
+	}
+	.projectsSection .projects-container .project .image img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 850px) {
+	/* Hero */
+	.hero-section .text h2 {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 740px) {
+	/* NAVBAR */
+	nav .container {
+		padding: 10px;
+	}
+
+	nav .container .right a#twitch,
+	nav .container .right a#twitter,
+	nav .container .right a#github {
+		font-size: 30px;
+		padding: 0;
+		margin: 0;
+	}
+
+	nav .container .right a#twitch:hover,
+	nav .container .right a#twitter:hover,
+	nav .container .right a#github:hover {
+		background-color: var(--background-color);
+	}
+
+	nav .container .right a span {
+		display: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	/* Hero */
+	.hero-section {
+		flex-direction: column-reverse;
+		padding: 0 20px;
+	}
+	.hero-section .text h2 {
+		font-size: 0 20px;
+	}
+
+	/* Skills */
+	.skills-section {
+		padding: 0 20px;
+	}
+
+	.skills-section .cells .cell span {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 659px) {
+	/* Socials */
+
+	.socials-section {
+		width: 100%;
+		align-items: center;
+	}
+
+	.socials-section .links {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.socials-section .links .social-link {
+		width: 90%;
+	}
+}
+
+@media (max-width: 479px) {
+	/* Skills */
+	.skills-section {
+		width: 100%;
+		align-items: center;
+	}
+
+	.skills-section .cells {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.skills-section .cells .cell {
+		width: 90%;
+        padding: 10px 120px;
+        justify-content: space-between;
+	}
+}
+
+@media (max-width: 456px) {
+    .skills-section .cells .cell {
+        justify-content: center;
+	}
+}
+
+@media (max-width: 298px) {
+    .skills-section .cells .cell {
+        padding: 10px;
+	}
+    .skills-section .cells .cell span {
+        display: none;
+    }
+}
+
+@media (max-width: 446px) {
+	nav .container .left .homeLink span {
+		display: none;
+	}
+
+	nav .container .left .homeLink img,
+	nav .container .left .homeLink a {
+		margin: 0;
+	}
+}

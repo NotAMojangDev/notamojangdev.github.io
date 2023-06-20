@@ -1,42 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This page is under construction</title>
-    <style>
-        html {
-            font-family: sans-serif;
-        }
-        body {
-            width: 100%;
-            height: auto;
-            background-color: black;
-        }
 
-        h1 {
-            align-self: center;
-            position: fixed;
-            vertical-align: center;
-            color: white;
-            transition: all 0.6s;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        h1:hover {
-            color: blue;
-            background-color: white;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="shortcut icon" href="images/profile.webp" type="image/x-icon">
+    <title>NotAMojangDev - About</title>
 </head>
+
 <body>
-    <h1 onclick='linkMe()'>this page is under construction (click me to see the code)</h1>
+    <!-- Navbar -->
+    <nav id='navbar'>
+        <div class="container">
+            <div class='left'>
+                <a href="/" class='homeLink'>
+                    <img src="images/profile.webp" alt="ProfilePic" class='home'>
+                    <span class='home'>NotAMojangDev</span>
+                </a>
+            </div>
+
+            <div class='right'>
+                <a href="http://github.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='github'>
+                    <i class='fa-brands fa-github'></i> <span>GitHub</span>
+                </a>
+                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='twitter'>
+                    <i class='fa-brands fa-twitter'></i> <span>Twitter</span>
+                </a>
+                <a href="http://twitch.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='twitch'>
+                    <i class='fa-brands fa-twitch'></i> <span>Twitch</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id='hero' class='hero-section'>
+            <div class="text">
+                <h2>Hello, I am NotAMojangDev! 👋</h2>
+                <p>I am a random guy you probably found on the internet so thank you for 
+                    taking your time to read about me, I like coding, Playing video games and Technology in particular.
+                    I Always wanted to learn Java, JavaScript And some of the "C" languages.
+                </p>
+                <p>
+                    I Like playing: Minecraft, TerraTech, Bloons TD 6 and Satisfactory
+                    (I prefer more chill games rather than fast pace PvP)
+                </p>
+                <h3>Stuff I like to do</h3>
+                <p>
+                    I like to Play video games Listen to music and Code in my free time
+                </p>
+                <div class="links">
+                    <a href="#skills" class='skillsLink'>
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects" class="projectsLink">
+                        <i class="fa-solid fa-folder"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#socials" class='socialsLink'>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <span>Socials</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="profileImg">
+                <img src="images/profile.webp" alt="profile picture">
+
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section id='skills' class='skills-section'>
+            <h2>Skills</h2>
+            <div class='text'>I like Coding, I wanted to try and learn this stuff Myself but I failed
+                the first time I tried to learn it and well thanks to my parents and the person that
+                taught me JavaScript that gave me the Tools to learn it myself.
+            </div>
+            <div class="cells">
+                <a class="cell javascript" href="http://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noopener noreferrer">
+                    <img src="images/javascript-logo.webp" alt="JS logo">
+                    <span>JavaScript</span>
+                </a>
+                <a class="cell java" href="http://java.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/java-logo.webp" alt="Java logo">
+                    <span>Java</span>
+                </a>
+                <a class="cell node" href="http://nodejs.org/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/node-logo.webp" alt="NodeJS logo">
+                    <span>Node.JS</span>
+                </a>
+                <a class="cell papermc" href="http://papermc.io/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/papermc-logo.webp" alt="PaperMC logo">
+                    <span>PaperMC</span>
+                </a>
+                <a class="cell python" href="http://python.org" target="_blank" rel="noopener noreferrer">
+                    <img src="images/python-logo.webp" alt="python logo">
+                    <span>Python</span>
+                </a>
+                <a class="cell html" href="http://developer.mozilla.org/en-US/docs/Web/html" target="_blank" rel="noopener noreferrer">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </a>
+                <a class="cell css" href="http://developer.mozilla.org/en-US/docs/Web/css" target="_blank" rel="noopener noreferrer">
+                    <img src="images/css-logo.webp" alt="CSS logo">
+                    <span>CSS</span>
+                </div></a>
+            </div>
+        </section>
+
+        <section id='projects' class='projectsSection'>
+            <div class="text">
+                <h2>Projects</h2>
+                <p>Projects I am working on or finished and maintainting</p>
+            </div>
+            <div class="projects">
+                <div class="projects-container">
+                    <div class="project">
+                        <div class="text">
+                            <h3>PetahSMP</h3>
+                            <p>PetahSMP is a Minecraft survival server
+                                opened by a group of small streamers
+                                that is maintined and developed by me
+                            </p>
+                        </div>
+                        <div class="image">
+                            <img src="images/projects/petahsmp.png" alt="PetahSMP Server Spawn Image">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <h3>Discord Bot</h3>
+                            <p>I started working on a discord bot not too long ago, More Info will come soon.</p>
+                        </div>
+                        <div class="image">
+                            <img src="/images/projects/discord-logo-blue.svg" alt="Discord-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-container">
+                
+                    <div class="project">
+                        <div class="text">
+                            <h3>Project: Secret</h3>
+                            <p>Can't reveal too much Info as we are trying to keep it a secret,
+                               This is an upcoming project of mine It's a minecraft server.
+                            </p>
+                        </div>
+                        <div class="image">
+                            <img src="images/projects/project_secret.png" alt="Project Secret Leak">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <h3>This Website (My Portfolio)</h3>
+                            <p>My current largest Project that
+                                I wrote completely by myself so far.
+                                Until I finish my discord bot
+                            </p>
+                        </div>
+                        <div class="image">
+                            <img src="/images/projects/portfolio.png" alt="screeshot of this page">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Socials/contact -->
+        <section id='socials' class='socials-section'>
+            <div class="text">
+                <h2>Socials</h2>
+            </div>
+
+            <div class="links">
+                <a href="http://github.com/NotAMojangDev" target="_blank" rel="noopener noreferrer"   class="social-link" id='github'>
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                </a>
+                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link' id='twitter'>
+                    <i class='fa-brands fa-twitter'></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="http://twitch.com/NotAMojangDev" target="_blank" rel="noopener noreferrer"  class='social-link' id='twitch'>
+                    <i class='fa-brands fa-twitch'></i>
+                    <span>Twitch</span>
+                </a>
+            </div>
+            <div class="links">
+                <a href="http://steamcommunity.com/id/NotAMojangDev" target="_blank" rel="noopener noreferrer" class="social-link" id='steam'>
+                    <i class="fa-brands fa-steam"></i>
+                    <span>Steam</span>
+                </a>
+                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
+                    id='codepen'>
+                    <i class='fa-brands fa-codepen'></i>
+                    <span>Codepen</span>
+                </a>
+                <a href="http://youtube.com/@NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
+                    id='youtube'>
+                    <i class='fa-brands fa-youtube'></i>
+                    <span>Youtube</span>
+                </a>
+            </div>
+
+            <div class="contact"></div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p class='mwl'>Made with &hearts; by <a href="http://github.com/NotAMojangDev" target="_blank"
+                    rel="noopener noreferrer">@NotAMojangDev</a></p>
+            <p>Copyright &copy; <span class="year"></span> NotAMojangDev</p>
+        </footer>
+    </main>
     <script>
-        function linkMe() {
-            location.href = 'https://github.com/NotAMojangDev/NotAMojangDev.github.io'
-        }
+        document.querySelector('.year').textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>
