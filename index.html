@@ -38,8 +38,9 @@
                 <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='twitter'>
                     <i class='fa-brands fa-twitter'></i> <span>Twitter</span>
                 </a>
-                <a href="http://twitch.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='twitch'>
-                    <i class='fa-brands fa-twitch'></i> <span>Twitch</span>
+                <a href="http://discordapp.com/users/566630884623777822/" target="_blank" rel="noopener noreferrer"
+                    id='discord'>
+                    <i class='fa-brands fa-discord'></i> <span>Discord</span>
                 </a>
             </div>
         </div>
@@ -56,7 +57,6 @@
                 </p>
                 <p>
                     I Like playing: Minecraft, TerraTech, Bloons TD 6 and Satisfactory
-                    (I prefer more chill games rather than fast pace PvP)
                 </p>
                 <h3>Stuff I like to do</h3>
                 <p>
@@ -138,8 +138,8 @@
                     <div class="project">
                         <div class="text">
                             <h3>MCC Inspired Event</h3>
-                            <p>this project is meant to be private 
-                                but I am still displaying this here 
+                            <p>this project is meant to be private
+                                but I am still displaying this here
                                 as it will be one of the bigger projects
                                 I will be working on.
                             </p>
@@ -163,7 +163,7 @@
                     <div class="project">
                         <div class="text">
                             <h3>Project: Unnanmed </h3>
-                            <p>Don't want to reveal too much Info as I want to keep it a secret, 
+                            <p>Don't want to reveal too much Info as I want to keep it a secret,
                                 This is an upcoming project of mine It's a minecraft server.
                             </p>
                         </div>
@@ -227,10 +227,11 @@
                 </a>
             </div>
             <div class="link">
-                <div class='social-link' id="discord" onclick='copyDiscordTag()'>
+                <a href='http://discordapp.com/users/566630884623777822/' target='_blank' rel='noopener noreferrer'
+                    class='social-link' id='discord'>
                     <i class='fa-brands fa-discord'></i>
                     <span>Discord</span>
-                </div>
+                </a>
             </div>
 
             <div class="contact"></div>
@@ -245,16 +246,10 @@
     </main>
     <script>
         let yearElements = document.querySelectorAll('.year');
+        let year = new Date().getFullYear();
 
-        for (i = 0; i < yearElements.length; i++) {
-            yearElements[i].textContent = new Date().getFullYear();
-        }
-
-
-
-        function copyDiscordTag() {
-            navigator.clipboard.writeText('notamojangdev');
-            alert('copied discord tag: notamojangdev');
+        for (let i = 0; i < yearElements.length; i++) {
+            yearElements[i].textContent = year;
         }
     </script>
 </body>

@@ -21,7 +21,7 @@ html {
 }
 
 body {
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: monospace, 'Source Code Pro', sans-serif;
 	background-color: var(--background-color);
 	padding-top: 80px;
 	max-width: 2000px;
@@ -76,6 +76,7 @@ nav .container .left img.home {
 
 nav .container .right a {
 	margin: 0px 5px;
+	
 }
 
 nav .container .right a#github {
@@ -102,14 +103,14 @@ nav .container .right a#twitter:hover {
 	box-shadow: 3px 1px 1px black;
 }
 
-nav .container .right a#twitch {
-	color: #9146ff;
+nav .container .right a#discord {
+	color: #5865F2;
 	padding: 5px;
 	border-radius: 5px;
 }
 
-nav .container .right a#twitch:hover {
-	background-color: #9146ff;
+nav .container .right a#discord:hover {
+	background-color: #5865F2;
 	color: var(--link-hover-color);
 	box-shadow: 3px 1px 1px black;
 }
@@ -320,7 +321,7 @@ nav .right a span {
 }
 
 .socials-section .links .social-link,
-.socials-section .link div#discord {
+.socials-section .link .social-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -389,19 +390,19 @@ nav .right a span {
 	color: var(--background-color);
 }
 
-.socials-section .link div#discord {
+.socials-section .link a#discord {
 	color: #5865f2;
 	display: flex;
 	flex-direction: row;
 }
 
-.socials-section .link div#discord:hover {
+.socials-section .link a#discord:hover {
 	background-color: #5865f2;
 	color: var(--background-color);
 }
 
 @media (min-width: 660px) {
-	.socials-section .link div#discord {
+	.socials-section .link a#discord {
 		width: 100%;
 	}
 }
@@ -469,7 +470,7 @@ footer p {
 		padding: 10px;
 	}
 
-	nav .container .right a#twitch,
+	nav .container .right a#discord,
 	nav .container .right a#twitter,
 	nav .container .right a#github {
 		font-size: 30px;
@@ -477,10 +478,12 @@ footer p {
 		margin: 0;
 	}
 
-	nav .container .right a#twitch:hover,
+	nav .container .right a#discord:hover,
 	nav .container .right a#twitter:hover,
 	nav .container .right a#github:hover {
-		background-color: var(--background-color);
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: 0px 0px;
+		transition: color 10000000000s; /* 166,666,666.6666666667 minutes or 2,777,777.7777777768 hours or 115,740.7407407407 days or 16,534.3915343915 weeks */
 	}
 
 	nav .container .right a span {
@@ -522,11 +525,11 @@ footer p {
 	}
 
 	.socials-section .links .social-link,
-	.socials-section .link div#discord {
+	.socials-section .link a#discord {
 		width: 90%;
 	}
 	.socials-section .links .social-link,
-	.socials-section .link div#discord {
+	.socials-section .link a#discord {
 		display: flex;
 		justify-content: space-evenly;
 		padding: 10px 80px;
