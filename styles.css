@@ -3,8 +3,13 @@
 	--dark-text-color: #373737;
 	--link-color: #5151e4;
 	--link-hover-color: #3c3cab;
+
+	--nav-bg-color: rgba(60, 60, 171, 0.48);
+	--nav-bg-filter: blur(7.9px);
+	--nav-content-bg-color: rgba(60, 60, 171, 0.5);
+
 	--background-color: #181835;
-	--footer-color: #090914;
+	--footer-color: #090914; 
 	--projects-section-color: hsl(196, 100%, 49%);
 	--project-background-color: hsl(196, 100%, 40%);
 }
@@ -21,7 +26,7 @@ html {
 }
 
 body {
-	font-family: monospace, 'Source Code Pro', sans-serif;
+	font-family: monospace, system-ui;
 	background-color: var(--background-color);
 	padding-top: 80px;
 	max-width: 2000px;
@@ -50,11 +55,18 @@ nav .container {
 	align-items: center;
 	padding: 0 50px;
 	height: 80px;
-	background-color: var(--link-hover-color);
+	background: var(--nav-bg-color);
+	backdrop-filter: var(--nav-bg-filter);
+	-webkit-backdrop-filter: var(--nav-bg-filter);
+	border-radius: 0 0 16px 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 nav .container .left {
 	font-size: 30px;
+	background-color: var(--nav-content-bg-color);
+	border-radius: 10px;
+	padding: 6px;
 }
 
 nav .container .left .homeLink {
@@ -65,13 +77,18 @@ nav .container .left .homeLink {
 	padding: 4px;
 }
 nav .container .left .homeLink:hover {
-	background-color: var(--link-hover-color);
-	color: var(--dark-text-color);
+	color: var(--text-color);
 }
 
 nav .container .left img.home {
 	height: 30px;
 	margin-right: 10px;
+}
+
+nav .container .right {
+	background-color: var(--nav-content-bg-color);
+	border-radius: 10px;
+	padding: 6px;
 }
 
 nav .container .right a {
@@ -422,6 +439,10 @@ footer {
 
 footer p {
 	text-align: center;
+}
+
+footer p a:hover {
+	text-decoration: underline;
 }
 
 @media (max-width: 1620px) {
