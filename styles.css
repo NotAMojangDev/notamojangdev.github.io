@@ -242,11 +242,39 @@ nav .right a span {
 	color: var(--link-color);
 }
 
-.skills-section .cells .cell img {
+.skills-section .cells .cell i {
 	height: 30px;
 	width: auto;
 	object-fit: contain;
 	border-radius: 2px;
+}
+
+.skills-section .cells .cell i.rust-logo {
+	color: #000;
+}
+
+.skills-section .cells .cell i.java-logo {
+	color: #6974dd;
+}
+
+.skills-section .cells .cell i.js-logo {
+	color: #fff27b;
+}
+
+.skills-section .cells .cell i.node-logo {
+	color: #417d38;
+}
+
+.skills-section .cells .cell i.python-logo {
+	color: #2b5b84;
+}
+
+.skills-section .cells .cell i.html-logo {
+	color: orangered;
+}
+
+.skills-section .cells .cell i.css-logo {
+	color: #44abff;
 }
 
 /* Projects */
