@@ -1,251 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css" />
 
-    <link rel="stylesheet" href="styles.css">
+        <link
+            rel="shortcut icon"
+            href="images/profile.webp"
+            type="image/x-icon"
+        />
+        <title>NotAMojangDev - About</title>
+    </head>
 
-    <link rel="shortcut icon" href="images/profile.webp" type="image/x-icon">
-    <title>NotAMojangDev - About</title>
-</head>
-
-<body>
-    <!-- Navbar -->
-    <nav id='navbar'>
-        <div class="container">
-            <div class='left'>
-                <a href="/" class='homeLink'>
-                    <img src="images/profile.webp" alt="ProfilePic" class='home'>
-                    <span class='home'>NotAMojangDev</span>
-                </a>
-            </div>
-
-            <div class='right'>
-                <a href="http://github.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='github'>
-                    <i class='fa-brands fa-github'></i> <span>GitHub</span>
-                </a>
-                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" id='twitter'>
-                    <i class='fa-brands fa-x-twitter'></i> <span>Twitter</span>
-                </a>
-                <a href="http://discordapp.com/users/566630884623777822/" target="_blank" rel="noopener noreferrer"
-                    id='discord'>
-                    <i class='fa-brands fa-discord'></i> <span>Discord</span>
-                </a>
-            </div>
-        </div>
-    </nav>
-
-    <main>
-        <!-- Hero -->
-        <section id='hero' class='hero-section'>
-            <div class="text">
-                <h2>Hello, I am NotAMojangDev! 👋</h2>
-                <p>I am a random guy you probably found on the internet so thank you for
-                    taking your time to read about me, I like coding, Playing video games and Technology in particular.
-                    I Always wanted to learn Java, JavaScript And some of the "C" languages.
-                </p>
-                <p>
-                    I Like playing: Minecraft, TerraTech, Bloons TD 6 and Satisfactory
-                </p>
-                <h3>Stuff I like to do</h3>
-                <p>
-                    I like to Play video games Listen to music and Code in my free time
-                </p>
-                <div class="links">
-                    <a href="#skills" class='skillsLink'>
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="container">
+                <div class="left">
+                    <a href="/" class="homeLink">
+                        <img
+                            src="images/profile.webp"
+                            alt="ProfilePic"
+                            class="home"
+                        />
+                        <span class="home">NotAMojangDev</span>
                     </a>
-                    <a href="#projects" class="projectsLink">
-                        <i class="fa-solid fa-folder"></i>
-                        <span>Projects</span>
+                </div>
+
+                <div class="right">
+                    <a
+                        href="https://github.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="github"
+                    >
+                        <i class="fa-brands fa-github"></i> <span>GitHub</span>
                     </a>
-                    <a href="#socials" class='socialsLink'>
-                        <i class="fa-brands fa-square-twitter"></i>
-                        <span>Socials</span>
+                    <a
+                        href="https://twitter.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="twitter"
+                    >
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a
+                        href="https://discordapp.com/users/566630884623777822/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="discord"
+                    >
+                        <i class="fa-brands fa-discord"></i>
+                        <span>Discord</span>
                     </a>
                 </div>
             </div>
+        </nav>
 
+        <main>
+            <!-- Hero -->
+            <section id="hero" class="hero-section">
+                <div class="text">
+                    <h2>Hello, I am NotAMojangDev! 👋</h2>
+                    <p>
+                        I am some random guy you probably found on the internet,
+                        I like coding, Playing video games and Technology in
+                        particular. I Wanted to learn coding after discovering
+                        the vast and interesting world of programming, Languages
+                        I know include: Rust, JavaScript, Python, C
+                        <a href="#skills">etc.</a>
+                    </p>
+                    <p>
+                        I Like playing: Minecraft, TerraTech, Bloons TD 6 and
+                        Satisfactory
+                    </p>
+                    <h3>Stuff I like to do</h3>
+                    <p>
+                        I like to Play video games Listen to music and Code in
+                        my free time
+                    </p>
+                    <div class="links">
+                        <a href="#skills" class="skillsLink">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Skills</span>
+                        </a>
+                        <a href="#projects" class="projectsLink">
+                            <i class="fa-solid fa-folder"></i>
+                            <span>Projects</span>
+                        </a>
+                        <a href="#socials" class="socialsLink">
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <span>Socials</span>
+                        </a>
+                    </div>
+                </div>
 
-            <div class="profileImg">
-                <img src="images/profile.webp" alt="profile picture">
+                <div class="profileImg">
+                    <img src="images/profile.webp" alt="profile picture" />
+                </div>
+            </section>
 
-            </div>
+            <!-- Skills -->
+            <section id="skills" class="skills-section">
+                <h2>Skills</h2>
+                <div class="text">
+                    I like Coding, I wanted to try and learn this stuff Myself
+                    but I failed the first time I tried to learn it and well
+                    thanks to some people that taught me my First coding
+                    languages that gave me the Tools to learn other languages
+                    myself.
+                </div>
+                <div class="cells">
+                    <a
+                        class="cell rust"
+                        href="http://rust-lang.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-rust"></i>
+                        <span>Rust</span>
+                    </a>
+                    <a
+                        class="cell java"
+                        href="http://java.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-java"></i>
+                        <span>Java</span>
+                    </a>
+                    <a
+                        class="cell javascript"
+                        href="http://developer.mozilla.org/en-US/docs/Web/javascript"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-js js-logo"></i>
+                        <span>JavaScript</span>
+                    </a>
+                    <a
+                        class="cell node"
+                        href="http://nodejs.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-node-js"></i>
+                        <span>Node.JS</span>
+                    </a>
+                    <a
+                        class="cell python"
+                        href="http://python.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-python"></i>
+                        <span>Python</span>
+                    </a>
+                    <a
+                        class="cell html"
+                        href="http://developer.mozilla.org/en-US/docs/Web/html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </a>
+                    <a
+                        class="cell css"
+                        href="http://developer.mozilla.org/en-US/docs/Web/css"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-css3"></i>
+                        <span>CSS</span>
+                    </a>
+                </div>
+            </section>
 
-        </section>
-
-        <!-- Skills -->
-        <section id='skills' class='skills-section'>
-            <h2>Skills</h2>
-            <div class='text'>I like Coding, I wanted to try and learn this stuff Myself but I failed
-                the first time I tried to learn it and well thanks to my parents and the person that
-                taught me JavaScript that gave me the Tools to learn it myself.
-            </div>
-            <div class="cells">
-                <a class="cell javascript" href="http://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="images/javascript-logo.webp" alt="JS logo">
-                    <span>JavaScript</span>
-                </a>
-                <a class="cell java" href="http://java.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/java-logo.webp" alt="Java logo">
-                    <span>Java</span>
-                </a>
-                <a class="cell node" href="http://nodejs.org/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/node-logo.webp" alt="NodeJS logo">
-                    <span>Node.JS</span>
-                </a>
-                <a class="cell papermc" href="http://papermc.io/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/papermc-logo.webp" alt="PaperMC logo">
-                    <span>PaperMC</span>
-                </a>
-                <a class="cell python" href="http://python.org" target="_blank" rel="noopener noreferrer">
-                    <img src="images/python-logo.webp" alt="python logo">
-                    <span>Python</span>
-                </a>
-                <a class="cell html" href="http://developer.mozilla.org/en-US/docs/Web/html" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="images/html-logo.webp" alt="html logo">
-                    <span>HTML</span>
-                </a>
-                <a class="cell css" href="http://developer.mozilla.org/en-US/docs/Web/css" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="images/css-logo.webp" alt="CSS logo">
-                    <span>CSS</span>
-            </div></a>
-            </div>
-        </section>
-
-        <section id='projects' class='projectsSection'>
-            <div class="text">
-                <h2>Projects</h2>
-                <p>Projects I am working on, finished and maintainting or Put here and discontinued</p>
-            </div>
-            <div class="projects">
-                <div class="projects-container">
-                    <div class="project">
-                        <div class="text">
-                            <h3>Code Editor Based on [Tauri](https://tauri.app) & Svelte</h3>
-                            <p>
-                                This is a Project I started for fun and experience, 
-                                if I like the End result I might switch to it from [Zed](http://github.com/zed-industries/zed)/[VSCode](https://code.visualstudio.com/)
-                            </p>
-                        </div>
-                        <!-- <div class="image">
-                            <img src="images/projects/code-editor.png" alt="Secret thing">
+            <section id="projects" class="projectsSection">
+                <div class="text">
+                    <h2>Projects</h2>
+                    <p>
+                        Projects I am working on, finished and maintainting or
+                        Put here and discontinued
+                    </p>
+                </div>
+                <div class="projects">
+                    <div class="projects-container">
+                        <div class="project">
+                            <div class="text">
+                                <h3>
+                                    Code Editor Based on
+                                    <a href="https://tauri.app">Tauri</a> &&
+                                    <a href="https://svelte.dev/">Svelte</a>
+                                </h3>
+                                <p>
+                                    This is a Project I started for fun and
+                                    experience, if I like the End result I might
+                                    switch to it from
+                                    <a
+                                        href="https://github.com/zed-industries/zed"
+                                        >Zed</a
+                                    >/<a href="https://code.visualstudio.com/"
+                                        >VSCode</a
+                                    >
+                                </p>
+                            </div>
+                            <!-- <div class="image">
+                            <img src="images/projects/code-editor.png" alt="Screenshot of Code Editor"> (Non-existant)
                         </div> -->
-                    </div>
-                    <div class="project">
-                        <div class="text">
-                            <h3>Discord Bot</h3>
-                            <h4>DISCONTINUED: Might return to it one day</h4>
                         </div>
-                        <div class="image">
-                            <img src="/images/projects/discord-logo-blue.svg" alt="Discord-logo">
+                        <div class="project">
+                            <div class="text">
+                                <h3>Discord Bot</h3>
+                                <h4>
+                                    DISCONTINUED: Might return to it one day
+                                </h4>
+                            </div>
+                            <div class="image">
+                                <img
+                                    src="/images/projects/discord-logo-blue.svg"
+                                    alt="Discord-logo"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-container">
+                        <div class="project">
+                            <div class="text">
+                                <h3>Project: Unnanmed</h3>
+                                <h4>DISCONTINUED</h4>
+                            </div>
+                            <div class="image">
+                                <img
+                                    src="images/projects/project_umcs.png"
+                                    alt="Project Unnamed MC Server"
+                                />
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="text">
+                                <h3>This Website (My Portfolio)</h3>
+                                <p>
+                                    My current largest Project that I wrote
+                                    completely by myself so far. Until I finish
+                                    a Code editor based on
+                                    <a href="https://tauri.app/">Tauri</a>
+                                    There isn't a need for a new Code Editor.
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img
+                                    src="/images/projects/portfolio.png"
+                                    alt="screeshot of this page"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="projects-container">
-
-                    <div class="project">
-                        <div class="text">
-                            <h3>Project: Unnanmed</h3>
-                            <h4>DISCONTINUED</h4>
-                        </div>
-                        <div class="image">
-                            <img src="images/projects/project_umcs.png" alt="Project Unnamed MC Server">
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="text">
-                            <h3>This Website (My Portfolio)</h3>
-                            <p>My current largest Project that
-                                I wrote completely by myself so far.
-                                Until I finish a Code editor based on [Tauri](https://tauri.app).
-                                There isn't a need for a new Code Editor.
-                            </p>
-                        </div>
-                        <div class="image">
-                            <img src="/images/projects/portfolio.png" alt="screeshot of this page">
-                        </div>
-                    </div>
+            </section>
+            <!-- Socials/contact -->
+            <section id="socials" class="socials-section">
+                <div class="text">
+                    <h2>Socials</h2>
                 </div>
-            </div>
-        </section>
-        <!-- Socials/contact -->
-        <section id='socials' class='socials-section'>
-            <div class="text">
-                <h2>Socials</h2>
-            </div>
 
-            <div class="links">
-                <a href="http://github.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class="social-link"
-                    id='github'>
-                    <i class="fa-brands fa-github"></i>
-                    <span>Github</span>
-                </a>
-                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
-                    id='twitter'>
-                    <i class='fa-brands fa-x-twitter'></i>
-                    <span>Twitter</span>
-                </a>
-                <a href="http://twitch.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
-                    id='twitch'>
-                    <i class='fa-brands fa-twitch'></i>
-                    <span>Twitch</span>
-                </a>
-            </div>
-            <div class="links">
-                <a href="http://steamcommunity.com/id/NotAMojangDev" target="_blank" rel="noopener noreferrer"
-                    class="social-link" id='steam'>
-                    <i class="fa-brands fa-steam"></i>
-                    <span>Steam</span>
-                </a>
-                <a href="http://twitter.com/NotAMojangDev" target="_blank" rel="noopener noreferrer" class='social-link'
-                    id='codepen'>
-                    <i class='fa-brands fa-codepen'></i>
-                    <span>Codepen</span>
-                </a>
-                <a href="http://youtube.com/@NotAMojangDev" target="_blank" rel="noopener noreferrer"
-                    class='social-link' id='youtube'>
-                    <i class='fa-brands fa-youtube'></i>
-                    <span>Youtube</span>
-                </a>
-            </div>
-            <div class="link">
-                <a href='http://discordapp.com/users/566630884623777822/' target='_blank' rel='noopener noreferrer'
-                    class='social-link' id='discord'>
-                    <i class='fa-brands fa-discord'></i>
-                    <span>Discord</span>
-                </a>
-            </div>
+                <div class="links">
+                    <a
+                        href="https://github.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                    <a
+                        href="https://twitter.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="twitter"
+                    >
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a
+                        href="https://twitch.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="twitch"
+                    >
+                        <i class="fa-brands fa-twitch"></i>
+                        <span>Twitch</span>
+                    </a>
+                </div>
+                <div class="links">
+                    <a
+                        href="https://steamcommunity.com/id/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="steam"
+                    >
+                        <i class="fa-brands fa-steam"></i>
+                        <span>Steam</span>
+                    </a>
+                    <a
+                        href="https://twitter.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="codepen"
+                    >
+                        <i class="fa-brands fa-codepen"></i>
+                        <span>Codepen</span>
+                    </a>
+                    <a
+                        href="https://youtube.com/@NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="youtube"
+                    >
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>Youtube</span>
+                    </a>
+                </div>
+                <div class="link">
+                    <a
+                        href="https://discordapp.com/users/566630884623777822/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-link"
+                        id="discord"
+                    >
+                        <i class="fa-brands fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                </div>
 
-            <div class="contact"></div>
-        </section>
+                <div class="contact"></div>
+            </section>
 
-        <!-- Footer -->
-        <footer>
-            <p class='mwl'>Made for fun by <a href="http://github.com/NotAMojangDev" target="_blank"
-                    rel="noopener noreferrer">@NotAMojangDev</a></p>
-            <p>Copyright &copy; <span class="year"></span> NotAMojangDev</p>
-        </footer>
-    </main>
-    <script>
-        let yearElements = document.querySelectorAll('.year');
-        let year = new Date().getFullYear();
+            <!-- Footer -->
+            <footer>
+                <p class="mwl">
+                    Made for fun by
+                    <a
+                        href="https://github.com/NotAMojangDev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >@NotAMojangDev</a
+                    >
+                </p>
+                <p>Copyright &copy; <span class="year"></span> NotAMojangDev</p>
+            </footer>
+        </main>
+        <script>
+            let yearElements = document.querySelectorAll(".year");
+            let year = new Date().getFullYear();
 
-        for (let i = 0; i < yearElements.length; i++) {
-            yearElements[i].textContent = year;
-        }
-    </script>
-</body>
-
+            for (let i = 0; i < yearElements.length; i++) {
+                yearElements[i].textContent = year;
+            }
+        </script>
+    </body>
 </html>
