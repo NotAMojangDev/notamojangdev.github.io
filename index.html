@@ -371,6 +371,20 @@
                 <p>Copyright &copy; <span class="year"></span> NotAMojangDev</p>
             </footer>
         </main>
+        <div id="bthn" lang="en"></div><script>
+        (function () {
+           var script = document.createElement("script");
+           script.type = "text/javascript";
+           script.src = "https://bringthemhomenow.net/1.1.0/hostages-ticker.js";
+           script.setAttribute(
+             "integrity",
+             "sha384-DHuakkmS4DXvIW79Ttuqjvl95NepBRwfVGx6bmqBJVVwqsosq8hROrydHItKdsne"
+           );
+           script.setAttribute("crossorigin", "anonymous");
+           document.getElementsByTagName("head")[0].appendChild(script);
+         })();
+        </script>
+
         <script>
             let yearElements = document.querySelectorAll(".year");
             let year = new Date().getFullYear();
